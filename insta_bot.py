@@ -42,7 +42,7 @@ class InstaBot:
 
 # Store class in a variable and call the login function to... login.
 instabot = InstaBot()
-instabot.login("harry9lloyd", password)
+instabot.login("username", password)
 
 # Add users account name here
 instabot.like_recent("therock")

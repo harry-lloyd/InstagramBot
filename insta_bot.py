@@ -40,8 +40,9 @@ class InstaBot:
         self.driver.find_element_by_class_name('fr66n').click()
 
 
-# Store class in a variable and call the login function to... login.
+# Store class in a variable and call the login function to login.
 instabot = InstaBot()
+# Enter your username where "username" is
 instabot.login("username", password)
 
 # Add users account name here

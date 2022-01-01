@@ -15,7 +15,7 @@ class InstaBot:
         self.username = username
         self.password = password
         self.driver.find_element_by_xpath(
-            "/html/body/div[3]/div/div/button[1]").click()
+            "/html/body/div[4]/div/div/button[1]").click()
         sleep(1)
         self.driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input')\
             .send_keys(username)
@@ -43,7 +43,7 @@ class InstaBot:
 # Store class in a variable and call the login function to login.
 instabot = InstaBot()
 # Enter your username where "username" is
-instabot.login("username", password)
+instabot.login(username, password)
 
 # Add users account name here
 instabot.like_recent("therock")
